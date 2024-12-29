@@ -1,5 +1,5 @@
 module.exports = {
-  BOT_TOKEN: "7828323771:AAFkK-ZIb0WeT-Wi63Muze2-kayuFxuxTZA",
+  BOT_TOKEN: "7596021271:AAGBiTrdyULgEps7MFSHe8TwRBB3KnCEhQs",
   OWNER_ID: "6516704660",
   allowedGroupIds: [-4688957266],
 };
