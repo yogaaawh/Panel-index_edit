@@ -1,6 +1,5 @@
-// BOT TELE
 module.exports = {
-  BOT_TOKEN: "7596021271:AAGBiTrdyULgEps7MFSHe8TwRBB3KnCEhQs", // Token bot Telegram
-  OWNER_ID: "6516704660", // ID pemilik bot
-  allowedGroupIds: [-1002401306074, -1002361556670, -1002386380830, -1002415460020, -4514397992], // ID grup yang diizinkan
+  BOT_TOKEN: "8141175612:AAGW71EtWUi_j-5rqvXR-RWbe8QXkp0DdZk",
+  OWNER_ID: "6070464452",
+  allowedGroupIds: [],
 };
