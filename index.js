@@ -2,7 +2,7 @@ const { spawnSync, spawn } = require('child_process')
 const { existsSync, writeFileSync } = require('fs')
 const path = require('path')
 
-const SESSION_ID = 'levanter_25de59374836ef42e9a42af582eddacb94' // Edit this line only, don't remove ' <- this symbol
+const SESSION_ID = 'levanter_15c667a6a0267e444f94c17b5a87f761e1' // Edit this line only, don't remove ' <- this symbol
 
 function startNode() {
   const child = spawn('node', ['index.js'], { cwd: 'levanter', stdio: 'inherit' })
