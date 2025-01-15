@@ -2,17 +2,17 @@ const chalk = require("chalk")
 const fs = require("fs")
 
 //==========================
-global.owner = ["2348102487241"]
-global.botname = ['']
+global.owner = ["2348022159244"]
+global.botname = ['Grey-Panel']
 //==========================
 global.prefa = ['']
 global.thumb = { url: 'https://telegra.ph/file/c2e84a4776ee6c47aa3a5.jpg' }//ur thumb pic
 
 //=================================================//
 //cpanel
-global.domain = "https://grey.nobodysey.me"
-global.apikey = "ptla_Uro5ZQNrUZGC9b1RgleuVmGWOkLWS7t76AJjLOozGKt"
-global.capikey = "ptlc_lcKNgY3kZEMEkS34YwsGc8EwjSp1FOkWMbLTgctONUD"
+global.domain = "https://morfe.nobodysey.me"
+global.apikey = "ptla_46KNOXtv7qS2n6WYdevSp2UAk1BQ501KGeIkIIT6nbv"
+global.capikey = "ptlc_Vn5O6T9IQeVIZCA9crmSZPuDf4JaKZoMyIzgSfW2M5l"
 global.egg = "15"
 global.loc = "1"
 
