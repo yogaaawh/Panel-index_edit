@@ -1,35 +1,67 @@
-//base by DGXeon (Xeon Bot Inc.)
-//re-upload? recode? copy code? give credit ya :)
-//YouTube: @DGXeon
-//Instagram: unicorn_xeon13
-//Telegram: @DGXeon
-//GitHub: @DGXeon
-//WhatsApp: +916909137213
-//want more free bot scripts? subscribe to my youtube channel: https://youtube.com/@DGXeon
-//telegram channel: https://t.me/+WEsVdEN2B9w4ZjA9
+require("./all/module.js")
 
-const fs = require("fs");
-const chalk = require("chalk")
+//========== Setting Owner ==========//
+global.owner = "2347082703155"
+global.namaowner = "SEYORI"
 
-global.BOT_TOKEN = "7637828567:AAG1-taIaODBtn7WSmWpBgEEVUexCUXGUkM" // create bot here https://t.me/Botfather and get bot token
-global.BOT_NAME = "Greyplanker" //your bot name
-global.OWNER_NAME = "@IAMXDA_01" //your name with sign @
-global.OWNER = ["https://t.me/+WEsVdEN2B9w4ZjA9", "https://youtube.com/@dgxeon?si=Ogk_T5DMcDjTQjNF"] // Make sure the username is correct so that the special owner features can be used.
-global.DEVELOPER = ["6516704660"] //developer telegram id to operate addprem delprem and listprem
-global.pp = 'https://telegra.ph/file/c5cd34db4564750eee3f0.jpg' //your bot pp
+//======== Setting Bot & Link ========//
+global.namabot = "Seyori's Panel Bot⚡"
+global.idsaluran = "120363257033988496@newsletter"
+global.linkgc = 'https://wa.me/qr/I2FJ6CU5TD22M1'
+global.packname = "Seyori's official panel bot"
+global.author = "Seyori's Panel Bot"
 
-global.owner = global.owner = ['2349125932419'] //owner whatsapp
+//========== Setting Event ==========//
+global.welcome = false
+global.autoread = false
+global.anticall = false
 
-const {
-   english
-} = require("./lib");
-global.language = english
-global.lang = language
+//==== Waktu Jeda Jpm & Pushkon ====//
+global.delaypushkontak = 5500
+global.delayjpm = 5500
+
+//========= Setting Url Foto =========//
+global.image = "https://telegra.ph/file/61692288760b34605bfbe.jpg"
+
+//========== Setting Panell ==========//
+global.egg = "15"
+global.loc = "1"
+global.domain = "https://morfe.nobodysey.me"
+global.apikey = "ptla_46KNOXtv7qS2n6WYdevSp2UAk1BQ501KGeIkIIT6nbv"
+global.capikey = "ptlc_Vn5O6T9IQeVIZCA9crmSZPuDf4JaKZoMyIzgSfW2M5l"
+
+//========= Setting Payment =========//
+//Kalo Gak Ada Isi Aja jadi false
+global.dana = "5548492121"
+global.gopay = false
+global.ovo = false
+global.qris = "https://telegra.ph/file/61692288760b34605bfbe.jpg"
+
+
+//=========== Api Domain ===========//
+//========== Api Domain 1 ==========//
+global.zone1 = "";
+global.apitoken1 = "";
+global.tld1 = "";
+
+//========= Setting Message =========//
+global.msg = {
+    "error": "An error occurred",
+    "done": "Successfully gotten data ✅",
+    "wait": "🕧 Processing, Please Wait a Moment",
+    "group": "This feature is only for groups❗",
+    "private": "This feature is only for private chats❗",
+    "admin": "This Feature Is Only For Group Admin❗",
+    "adminbot": "This Feature Can Be Used When the Bot Becomes an Admin❗",
+    "owner": "This feature is only for bot owners❗",
+    "developer": "This Feature Is Only For Developers❗"
+}
+
 
 let file = require.resolve(__filename)
 fs.watchFile(file, () => {
-fs.unwatchFile(file)
-console.log(chalk.redBright(`Update ${__filename}`))
-delete require.cache[file]
-require(file)
+    fs.unwatchFile(file)
+    console.log(chalk.redBright(`Update ${__filename}`))
+    delete require.cache[file]
+    require(file)
 })
