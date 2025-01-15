@@ -111,7 +111,7 @@ case 'menu': {
 const owned = `${owner}@s.whatsapp.net`
 let text = `*Hi @${sender.split("@")[0]} 👋*
 ━━━━━━━━━━━━━━━━━━━━━━━━
-𝓒𝓹𝓪𝓷𝓮𝓵 𝓟𝓾𝓼𝓱 𝓬𝓸𝓷𝓽𝓪𝓬𝓽 𝓦𝓪 𝓐𝓼𝓼𝓲𝓼𝓽𝓪𝓷𝓽 ❂
+Grey-panel session bot ❂
 ━━━━━━━━━━━━━━━━━━━━━━━━
 *ping* :- ${latensi.toFixed(4)}
 ━━━━━━━━━━━━━━━━━━━━━━━━
@@ -119,7 +119,7 @@ panelmenu
 broadcastmenu
 pushcontactmenu
 ━━━━━━━━━━━━━━━━━━━━━━━━
-© 𝓔𝓭𝓷𝓾𝓽 
+© Ꮇᴏfᴇ / grᴇy 
 `
 ednut.sendMessage(m.chat, {
 text: text,
@@ -158,7 +158,7 @@ let me = ` *Hi @${sender.split("@")[0]} 👋*
 *listserver <owner>*
 *delserver <owner>*
 ━━━━━━━━━━━━━━━━━━━
-© 𝓔𝓭𝓷𝓾𝓽 
+© Ꮇᴏfᴇ / grᴇy 
 `
     ednut.sendMessage(m.chat, {
                         video: { url: `https://files.catbox.moe/0ymdbk.mp4`},
@@ -360,7 +360,7 @@ ctf = `*Hello @${u.split`@`[0]} 👋*
 
 *4. Dont spam bot*
 ━━━━━━━━━━━━━━━━━━━━━━━━
-© 𝓔𝓭𝓷𝓾𝓽 `
+© Ꮇᴏfᴇ / grᴇy `
 ednut.sendMessage(u,{image: {url: akunlo}, caption: ctf }, { quoted: m })
 let data2 = await f2.json();
 let startup_cmd = data2.attributes.startup
@@ -408,7 +408,7 @@ let res = await f3.json()
 if (res.errors) return reply(JSON.stringify(res.errors[0], null, 2))
 let server = res.attributes
 let p = reply(`*Server created successfully logs sent directly to the given number server id ${server.id}*\n
-© 𝓔𝓭𝓷𝓾𝓽`)
+© Ꮇᴏfᴇ / grᴇy`)
 }
 break
 
@@ -473,7 +473,7 @@ ctf = `*Hello @${u.split`@`[0]} 👋*
 
 *4. Dont spam bot*
 ━━━━━━━━━━━━━━━━━━━━━━━━
-© 𝓔𝓭𝓷𝓾𝓽 `
+© Ꮇᴏfᴇ / grᴇy `
 ednut.sendMessage(u,{image: {url: akunlo}, caption: ctf }, { quoted: m })
 let data2 = await f2.json();
 let startup_cmd = data2.attributes.startup
@@ -521,7 +521,7 @@ let res = await f3.json()
 if (res.errors) return reply(JSON.stringify(res.errors[0], null, 2))
 let server = res.attributes
 let p = reply(`*Server created successfully logs sent directly to the given number server id ${server.id}*\n
-© 𝓔𝓭𝓷𝓾𝓽`)
+© Ꮇᴏfᴇ / grᴇy`)
 }
 break
 
@@ -586,7 +586,7 @@ ctf = `*Hello @${u.split`@`[0]} 👋*
 
 *4. Dont spam bot*
 ━━━━━━━━━━━━━━━━━━━━━━━━
-© 𝓔𝓭𝓷𝓾𝓽 `
+© Ꮇᴏfᴇ / grᴇy `
 ednut.sendMessage(u,{image: {url: akunlo}, caption: ctf }, { quoted: m })
 let data2 = await f2.json();
 let startup_cmd = data2.attributes.startup
@@ -634,7 +634,7 @@ let res = await f3.json()
 if (res.errors) return reply(JSON.stringify(res.errors[0], null, 2))
 let server = res.attributes
 let p = reply(`*Server created successfully logs sent directly to the given number server id ${server.id}*\n
-© 𝓔𝓭𝓷𝓾𝓽`)
+© Ꮇᴏfᴇ / grᴇy`)
 }
 break
 
@@ -699,7 +699,7 @@ ctf = `*Hello @${u.split`@`[0]} 👋*
 
 *4. Dont spam bot*
 ━━━━━━━━━━━━━━━━━━━━━━━━
-© 𝓔𝓭𝓷𝓾𝓽 `
+© Ꮇᴏfᴇ / grᴇy `
 ednut.sendMessage(u,{image: {url: akunlo}, caption: ctf }, { quoted: m })
 let data2 = await f2.json();
 let startup_cmd = data2.attributes.startup
@@ -747,7 +747,7 @@ let res = await f3.json()
 if (res.errors) return reply(JSON.stringify(res.errors[0], null, 2))
 let server = res.attributes
 let p = reply(`*Server created successfully logs sent directly to the given number server id ${server.id}*\n
-© 𝓔𝓭𝓷𝓾𝓽`)
+© Ꮇᴏfᴇ / grᴇy`)
 }
 break
 
@@ -812,7 +812,7 @@ ctf = `*Hello @${u.split`@`[0]} 👋*
 
 *4. Dont spam bot*
 ━━━━━━━━━━━━━━━━━━━━━━━━
-© 𝓔𝓭𝓷𝓾𝓽 `
+© Ꮇᴏfᴇ / grᴇy `
 ednut.sendMessage(u,{image: {url: akunlo}, caption: ctf }, { quoted: m })
 let data2 = await f2.json();
 let startup_cmd = data2.attributes.startup
@@ -860,7 +860,7 @@ let res = await f3.json()
 if (res.errors) return reply(JSON.stringify(res.errors[0], null, 2))
 let server = res.attributes
 let p = reply(`*Server created successfully logs sent directly to the given number server id ${server.id}*\n
-© 𝓔𝓭𝓷𝓾𝓽`)
+© Ꮇᴏfᴇ / grᴇy`)
 }
 break
 
@@ -925,7 +925,7 @@ ctf = `*Hello @${u.split`@`[0]} 👋*
 
 *4. Dont spam bot*
 ━━━━━━━━━━━━━━━━━━━━━━━━
-© 𝓔𝓭𝓷𝓾𝓽 `
+© Ꮇᴏfᴇ / grᴇy `
 ednut.sendMessage(u,{image: {url: akunlo}, caption: ctf }, { quoted: m })
 let data2 = await f2.json();
 let startup_cmd = data2.attributes.startup
@@ -973,7 +973,7 @@ let res = await f3.json()
 if (res.errors) return reply(JSON.stringify(res.errors[0], null, 2))
 let server = res.attributes
 let p = reply(`*Server created successfully logs sent directly to the given number server id ${server.id}*\n
-© 𝓔𝓭𝓷𝓾𝓽`)
+© Ꮇᴏfᴇ / grᴇy`)
 }
 break
 
@@ -1038,7 +1038,7 @@ ctf = `*Hello @${u.split`@`[0]} 👋*
 
 *4. Dont spam bot*
 ━━━━━━━━━━━━━━━━━━━━━━━━
-© 𝓔𝓭𝓷𝓾𝓽 `
+© Ꮇᴏfᴇ / grᴇy `
 ednut.sendMessage(u,{image: {url: akunlo}, caption: ctf }, { quoted: m })
 let data2 = await f2.json();
 let startup_cmd = data2.attributes.startup
@@ -1086,7 +1086,7 @@ let res = await f3.json()
 if (res.errors) return reply(JSON.stringify(res.errors[0], null, 2))
 let server = res.attributes
 let p = reply(`*Server created successfully logs sent directly to the given number server id ${server.id}*\n
-© 𝓔𝓭𝓷𝓾𝓽`)
+© Ꮇᴏfᴇ / grᴇy`)
 }
 break
 
@@ -1151,7 +1151,7 @@ ctf = `*Hello @${u.split`@`[0]} 👋*
 
 *4. Dont spam bot*
 ━━━━━━━━━━━━━━━━━━━━━━━━
-© 𝓔𝓭𝓷𝓾𝓽 `
+© Ꮇᴏfᴇ / grᴇy `
 ednut.sendMessage(u,{image: {url: akunlo}, caption: ctf }, { quoted: m })
 let data2 = await f2.json();
 let startup_cmd = data2.attributes.startup
@@ -1199,7 +1199,7 @@ let res = await f3.json()
 if (res.errors) return reply(JSON.stringify(res.errors[0], null, 2))
 let server = res.attributes
 let p = reply(`*Server created successfully logs sent directly to the given number server id ${server.id}*\n
-© 𝓔𝓭𝓷𝓾𝓽`)
+© Ꮇᴏfᴇ / grᴇy`)
 }
 break
 
@@ -1264,7 +1264,7 @@ ctf = `*Hello @${u.split`@`[0]} 👋*
 
 *4. Dont spam bot*
 ━━━━━━━━━━━━━━━━━━━━━━━━
-© 𝓔𝓭𝓷𝓾𝓽 `
+© Ꮇᴏfᴇ / grᴇy `
 ednut.sendMessage(u,{image: {url: akunlo}, caption: ctf }, { quoted: m })
 let data2 = await f2.json();
 let startup_cmd = data2.attributes.startup
@@ -1312,7 +1312,7 @@ let res = await f3.json()
 if (res.errors) return reply(JSON.stringify(res.errors[0], null, 2))
 let server = res.attributes
 let p = reply(`*Server created successfully logs sent directly to the given number server id ${server.id}*\n
-© 𝓔𝓭𝓷𝓾𝓽`)
+© Ꮇᴏfᴇ / grᴇy`)
 }
 break
 
@@ -1377,7 +1377,7 @@ ctf = `*Hello @${u.split`@`[0]} 👋*
 
 *4. Dont spam bot*
 ━━━━━━━━━━━━━━━━━━━━━━━━
-© 𝓔𝓭𝓷𝓾𝓽 `
+© Ꮇᴏfᴇ / grᴇy `
 ednut.sendMessage(u,{image: {url: akunlo}, caption: ctf }, { quoted: m })
 let data2 = await f2.json();
 let startup_cmd = data2.attributes.startup
@@ -1425,7 +1425,7 @@ let res = await f3.json()
 if (res.errors) return reply(JSON.stringify(res.errors[0], null, 2))
 let server = res.attributes
 let p = reply(`*Server created successfully logs sent directly to the given number server id ${server.id}*\n
-© 𝓔𝓭𝓷𝓾𝓽`)
+© Ꮇᴏfᴇ / grᴇy`)
 }
 break
 
@@ -1490,7 +1490,7 @@ ctf = `*Hello @${u.split`@`[0]} 👋*
 
 *4. Dont spam bot*
 ━━━━━━━━━━━━━━━━━━━━━━━━
-© 𝓔𝓭𝓷𝓾𝓽 `
+© Ꮇᴏfᴇ / grᴇy `
 ednut.sendMessage(u,{image: {url: akunlo}, caption: ctf }, { quoted: m })
 let data2 = await f2.json();
 let startup_cmd = data2.attributes.startup
@@ -1538,7 +1538,7 @@ let res = await f3.json()
 if (res.errors) return reply(JSON.stringify(res.errors[0], null, 2))
 let server = res.attributes
 let p = reply(`*Server created successfully logs sent directly to the given number server id ${server.id}*\n
-© 𝓔𝓭𝓷𝓾𝓽`)
+© Ꮇᴏfᴇ / grᴇy`)
 }
 break
 
