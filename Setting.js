@@ -5,6 +5,6 @@
 */
 
 module.exports = {
-    TokenS: "TOKEN_BOT_MU",
-    admins: ["7308812889"]
+    TokenS: "7596021271:AAGBiTrdyULgEps7MFSHe8TwRBB3KnCEhQs",
+    admins: ["6516704660"]
 };
