@@ -1,6 +1,6 @@
 module.exports = {
-  BOT_TOKEN: "7596021271:AAGBiTrdyULgEps7MFSHe8TwRBB3KnCEhQs",
-  OWNER_ID: ["6516704660"],
+  BOT_TOKEN: "8068649263:AAHEEzvOKu-ifPFDXlKMOhbxF4htu-rS6eI",
+  OWNER_ID: ["7754610629"],
 };
 
 /*/━━━━━━━━━━━━━━━━━━━━━━  
