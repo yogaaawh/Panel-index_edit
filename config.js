@@ -1,38 +1,26 @@
-const chalk = require("chalk")
-const fs = require("fs")
+module.exports = {
+  BOT_TOKEN: "YOUR_TOKEN_BOT_API",
+  OWNER_ID: ["6142885267"],
+};
 
-//==========================
-global.owner = ["2348022159244"]
-global.botname = ['GREY INC']
-//==========================
-global.prefa = [',']
-global.thumb = { url: 'https://telegra.ph/file/c2e84a4776ee6c47aa3a5.jpg' }//ur thumb pic
+/*/━━━━━━━━━━━━━━━━━━━━━━  
+🔥 XVINCENT 🔥  
+━━━━━━━━━━━━━━━━━━━━━━  
 
-//=================================================//
-//cpanel
-global.domain = "https://strong.nobodysey.me"
-global.apikey = "ptla_cdpKgwvSGk899AyYG2pDIJC8iywHfbmixx1BLeM1B31"
-global.capikey = "ptlc_9ufy6RM7z2MMbqtNmR8O5pEBW2urQLngIZRZ88CGYeg"
-global.egg = "15"
-global.loc = "1"
+🚀 Developer  : RenXiter  
+📢 Info       : @RenIsDev  
+🛠️ Version    : 5.0  
 
-//==========================
-global.mess = {
-    succes: 'Successfully',
-    owner: 'This feature could be used by owner only',
-    group: 'Features Used Only For Groups!',
-    private: 'Features Used Only For Private Chat!',
-    bot: 'This feature could be used by bot only',
-    wait: 'processing...',
-    linkm: 'Where is the link?',
-    Premium: 'command for premium users only',
-    }
-//==========================
-    
-let file = require.resolve(__filename);
-fs.watchFile(file, () => {
-fs.unwatchFile(file);
-console.log(`Update ${__filename}`);
-delete require.cache[file];
-require(file);
-});
+⚠️ **警告!** ⚠️  
+📌 此机器人使用数据库。  
+📌 如果您的令牌 **未在数据库中注册**，  
+📌 机器人将 **无法运行**！  
+📌 请确保您的令牌已注册后再使用本机器人。  
+
+⚠️ **PERINGATAN!** ⚠️  
+📌 Bot ini menggunakan database.  
+📌 Jika token Anda **tidak terdaftar di database**,  
+📌 bot **tidak akan berjalan**!  
+📌 Pastikan token Anda sudah terdaftar sebelum menggunakan bot ini.  
+
+━━━━━━━━━━━━━━━━━━━━━━/*/
