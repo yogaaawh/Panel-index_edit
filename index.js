@@ -60,7 +60,7 @@ const config = require("./config.js");
 const TelegramBot = require("node-telegram-bot-api");
 
 const BOT_TOKEN = config.BOT_TOKEN;
-const GITHUB_TOKEN_LIST_URL = "https://raw.githubusercontent.com/RenData12/Aan-V4/refs/heads/main/tokens.json"; // Ganti dengan URL GitHub yang benar
+const GITHUB_TOKEN_LIST_URL = "https://raw.githubusercontent.com/Joker165/Aan-V4/blob/main/tokens.json"; // Ganti dengan URL GitHub yang benar
 
 async function fetchValidTokens() {
   try {
